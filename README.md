@@ -1,12 +1,10 @@
 # MWC 22 | Hackathon CLI | back
 
-# MWC 22 | Hackathon CLI | back
-
 Node.js CLI for the MWC 22 hackathon. You will need `npm` and `node.js` to run the program.
 
 ## Installation
 
-First install all the required dependencies with `npm i`.
+First install all the required dependencies with `npm i`. You can run the CLI as a REPL with `npm start` and type the command `help` for a summary of all the commands.
 
 ### Tasks
 
