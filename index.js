@@ -116,6 +116,8 @@ vorpal
         });
     });
 
-vorpal.log(HEADER, `font-family: monospace`);
-vorpal.delimiter('MWC 22 >>').show();
-vorpal.parse(process.argv);
+if (process.argv) vorpal.parse(process.argv);
+else {
+    vorpal.log(HEADER, `font-family: monospace`);
+    vorpal.delimiter('MWC 22 >>').show();
+}
