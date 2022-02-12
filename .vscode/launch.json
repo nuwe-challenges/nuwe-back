@@ -31,5 +31,20 @@
             ],
             "type": "pwa-node"
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "args": [
+              "-u",
+              "bdd",
+              "--timeout",
+              "0",
+              "--colors",
+              "${workspaceFolder}/tests/integration-tests/tests/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart"
+      },
     ]
 }

@@ -4,7 +4,7 @@
     "description": "4yfn hackathon",
     "main": "index.js",
     "scripts": {
-        "test": "test",
+        "test": "mocha tests/integration-tests/tests",
         "seed": "npm start seed",
         "start": "TZ=UTC node index.js"
     },
@@ -20,12 +20,14 @@
     "homepage": "https://github.com/Fardenz/nuwe-back#readme",
     "dependencies": {
         "log4js": "^6.4.1",
+        "rimraf": "^3.0.2",
         "sequelize": "^6.16.1",
         "sqlite3": "^5.0.2",
         "vorpal": "^1.12.0",
         "vorpal-repl": "^1.1.8"
     },
     "devDependencies": {
+        "mocha": "^9.2.0",
         "prettier": "2.5.1"
     }
 }
