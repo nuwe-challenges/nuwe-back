@@ -37,3 +37,6 @@ With the command `npm run start developers` the program will display a list of t
 With the command `npm run start add` the program will prompt for the information of the developer and store it in the database.
      
 <img src="/resources/task5.gif" width="900">
+
+## Tests
+You can execute the tests for the commands with `npm run test`. This will execute mocha and run 3 integration tests, testing the `info` command, the `seed` command and the `developers` command.
